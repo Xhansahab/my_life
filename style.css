@@ -1,0 +1,43 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+text-align:center;
+}
+
+h1{
+color:white;
+}
+
+.image-box img{
+width:350px;
+border-radius:10px;
+cursor:zoom-in;
+transition:transform 0.3s;
+}
+
+.zoomed{
+transform:scale(2);
+cursor:zoom-out;
+}
+
+.download-btn{
+padding:10px 20px;
+border:none;
+border-radius:8px;
+background:#ff4d6d;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.download-btn:hover{
+background:#ff1f4b;
+}
